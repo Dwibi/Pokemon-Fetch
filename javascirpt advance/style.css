@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #789395;
+}
+.header {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #E5E3C9; */
+}
+#output {
+    display: flex;
+    width: 1240px;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 45px;
+}
+.box {
+    width: 210px;
+    height: 260px;
+    border: 1px solid black;
+    margin: 0;
+    border-radius: 10px;
+}
+.image-box {
+    width: 210px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E3C9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+.image-pokemon {
+    width: 210px;
+    height: 200px;
+    margin: 0;
+    /* background-color: brown; */
+}
+.name-box {
+    width: 210px;
+    height: 60px;
+    background-color: #C4DFAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    /* border-top: 1px solid black; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.name-pokemon {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.url-pokemon {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+@media (max-width: 576px) {
+    .header {
+        font-size: 10.6px;
+        width: 300px;
+    }
+    #output {
+        display: flex;
+        width: 300px;
+        /* border: 1px solid red; */
+        gap: 15px;
+    }
+    .box {
+        width: 140px;
+        height: 160px;
+        border: 1px solid black;
+        margin: 0;
+        border-radius: 10px;
+    }
+    .image-box {
+        width: 140px;
+        height: 110px;
+        /* background-color: aqua; */
+    
+    }
+    .image-pokemon {
+        width: 110px;
+        height: 110px;
+        /* background-color: brown; */
+    }
+    .name-box {
+        width: 140px;
+        height: 50px;
+        padding: 5px;
+        /* background-color: antiquewhite; */
+
+    }
+    .name-pokemon {
+        font-size:12px;
+    
+    }
+    .url-pokemon {
+        font-size: 6.5px;
+        color: black;
+    }
+}
